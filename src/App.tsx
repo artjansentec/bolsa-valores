@@ -1,8 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Broker from './components/broker/index';
+import Broker from './components/broker/index.tsx';
 
 
 var ws = new WebSocket('ws://localhost:8080/websocket');
